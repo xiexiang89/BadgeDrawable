@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DefaultBadge">
+        <item name="badge_gravity">TOP_END</item>
+    </style>
+</resources>

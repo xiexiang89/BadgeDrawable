@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="badgeDrawableStyle"/>
+    <declare-styleable name="BadgeDrawable">
+        <attr format="color" name="badge_backgroundColor"/>
+        <attr format="color" name="badge_textColor"/>
+        <attr format="color" name="badge_textSize"/>
+        <attr format="integer" name="badge_maxNumber"/>
+        <attr format="integer" name="badge_number"/>
+        <attr format="dimension" name="badge_radii"/>
+        <attr format="boolean" name="sizeAdjustRadii"/>
+        <attr format="dimension" name="badge_size"/>
+        <attr format="dimension" name="badge_width"/>
+        <attr format="dimension" name="badge_height"/>
+        <attr format="dimension" name="badge_horizontalPadding"/>
+        <attr format="dimension" name="badge_horizontalOffset"/>
+        <attr format="dimension" name="badge_verticalOffset"/>
+        <attr format="integer" name="badge_alpha"/>
+        <attr name="badge_shape">
+            <enum name="rectangle" value="0"/>
+            <enum name="dot" value="1"/>
+        </attr>
+        <attr name="badge_gravity">
+            <!-- Gravity.TOP | Gravity.END -->
+            <enum name="TOP_END" value="8388661"/>
+            <!-- Gravity.TOP | Gravity.START -->
+            <enum name="TOP_START" value="8388659"/>
+            <!-- Gravity.BOTTOM | Gravity.END -->
+            <enum name="BOTTOM_END" value="8388693"/>
+            <!-- Gravity.BOTTOM | Gravity.START -->
+            <enum name="BOTTOM_START" value="8388691"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,35 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BadgeTextLong" parent="DefaultBadge">
+        <item name="badge_number">999</item>
+        <item name="badge_maxNumber">1000</item>
+        <item name="badge_size">14dp</item>
+        <item name="badge_height">16dp</item>
+        <item name="badge_radii">4dp</item>
+        <item name="badge_shape">rectangle</item>
+        <item name="badge_horizontalOffset">8dp</item>
+        <item name="badge_verticalOffset">-2dp</item>
+    </style>
+
+    <style name="BadgeTextDot" parent="DefaultBadge">
+        <item name="badge_number">9</item>
+        <item name="badge_size">16dp</item>
+        <item name="badge_shape">dot</item>
+        <item name="badge_horizontalOffset">2dp</item>
+        <item name="badge_verticalOffset">-2dp</item>
+    </style>
+
+    <style name="BadgeDot" parent="DefaultBadge">
+        <item name="badge_size">6dp</item>
+        <item name="badge_shape">dot</item>
+        <item name="badge_horizontalOffset">2dp</item>
+        <item name="badge_verticalOffset">-2dp</item>
+    </style>
+</resources>
